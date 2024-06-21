@@ -29,6 +29,12 @@ Experiments demonstrate that by introducing prior information measurements and t
 ## Abstract
 
 With the development of Artificial Intelligence, more researchers are keen on adopting intelligent methods to predict football match outcomes. However, existing machine learning methods are more sensitive to noisy data and struggle with missing data. Deep learning methods can better learn data features and achieve high-Accuracy predictions and classifications, but they still face issues with effective inductive bias. In this paper, we construct a comprehensive football match prediction dataset containing 54,130 top-tier football matches, which comprises both textual and numerical features and also introduces measurements of match complexity as prior information. To further improve the prediction results of football matches, we propose an Iterative Alignment Network (IANet), consisting of a Feature Selection Masked Encoder (FSME) and an Iterative Multi-level Feature Decoder (IMFD). This network not only alleviates the sparsity problem caused by missing features but also more efficiently aligns numerical and textual features. Experiments demonstrate that by introducing prior information measurements and the design of the network model, the proposed method effectively improves the Accuracy of football match predictions. Ablation Experiments validate the effectiveness of the proposed modules.
+![teaser](https://github.com/Xiongmao11132/IANet-Iterative-Alignment-Network-for-Football-Match-Tabular-Learning/raw/main/Images/Feature%20Importance.png)
+
+## Method
+
+## Visualization
+https://github.com/Xiongmao11132/IANet-Iterative-Alignment-Network-for-Football-Match-Tabular-Learning/raw/main/Images/Feature%20Importance.png
 
 
 ## Citation
